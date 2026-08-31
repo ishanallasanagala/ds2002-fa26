@@ -1,0 +1,31 @@
+# Instructor-only — never push to the student repo
+instructor/
+admin/
+**/*ANSWER KEY*.ipynb
+
+# Environments
+.venv/
+venv/
+__pycache__/
+*.pyc
+
+# Notebook checkpoints
+.ipynb_checkpoints/
+
+# OS cruft
+.DS_Store
+Thumbs.db
+
+# Large / generated data (keep only data/sample/)
+data/full/
+*.db-journal
+
+# Secrets / keys
+.canvas_token
+*.pem
+*.key
+*_key
+*_key.pub
+*.json.key
+service-account*.json
+.env
